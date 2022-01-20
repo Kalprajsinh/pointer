@@ -1,0 +1,18 @@
+#include<stdio.h>  
+
+int main(){  
+
+int x;    
+     printf("Enter variable:");
+     scanf("%d",&x);
+int *p;      
+
+p=&x;
+
+printf("Address of p variable is %x \n",p);
+printf("Value of p variable is %d \n",*p);     
+
+return 0;  
+
+}    
+
